@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Macintosh Desing</title>
+    <!-- Libs -->
+    <link rel="stylesheet" href="libs/fontawesome-pro-5.13.0-web/css/all.min.css">
+    <link rel="stylesheet" href="libs/bootstrap-4.5.0-dist/css/bootstrap.min.css">
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <nav id="home" class="navbar navbar-expand-lg nav-fixed">
+            <div class="container nav__container">
+                <!-- Лого -->
+                <a class="navbar-brand" href="#home"><img src="img/logo.png" alt=""></a>
+                <!-- Кнопка -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="navbar-icon far fa-bars"></i>
+                </button>
+                <!-- Меню -->
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="#home">home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about-section">about</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#result-section">work</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#process-section">process</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#service-section">services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#feed-section">testimonials</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact-section">contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="header__content">
+            <div class="container">
+                <h1 class="header__title">We Design and Develop</h1>
+                <p class="header__text">We are a new design studio based in USA. We have over
+                    20 years of combined experience, and know a thing or two
+                    about designing websites and mobile apps.</p>
+                <!-- Не забудь сделать ссылку на форму в конце -->
+                <a class="header__link" href="#contact-section">contact us</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="about" id="about-section">
+            <div class="container">
+                <div class="row flex-column align-items-center text-center">
+                    <div class="col-sm-12 col-md-10 col-xl-6">
+                        <h2 class="about__title">About Us</h2>
+                        <p class="about__text">Divide have don't man wherein air fourth. Own itself make have night
+                            won't make.
+                            A you under Seed appear which good give. Own give air without fowl moveth dry first
+                            heaven fruit, dominion she'd won't very all.
+                        </p>
+                        <img src="img/signature.png" alt="" class="about__img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="stats">
+            <div class="stats__container">
+                <div class="stats__progress">
+                    <h2 class="stats__title">Professional Skills</h2>
+                    <!-- Bar -->
+                    <h4 class="stats__subtitle">UI/UX Design 75%</h4>
+                    <div class="progress progress-margin">
+                        <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75"
+                            aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <!-- Bar -->
+                    <h4 class="stats__subtitle">web development 90%</h4>
+                    <div class="progress progress-margin">
+                        <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90"
+                            aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <!-- Bar -->
+                    <h4 class="stats__subtitle">marketing 65%</h4>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="65"
+                            aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+
+                <div class="stats__image">
+                    <img src="img/main-notebook.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section id="result-section" class="result">
+            <div class="container d-flex justify-content-center">
+                <ul class="result__list">
+                    <li class="result__item result__item_mright">
+                        <i class="result__icon fal fa-briefcase"></i>
+                        <h3 class="results__title">548</h3>
+                        <p class="results__text">projects completed</p>
+                    </li>
+
+                    <li class="result__item result__item_mboth result__item_center1">
+                        <i class="result__icon fal fa-clock"></i>
+                        <h3 class="results__title">548</h3>
+                        <p class="results__text">WORKING HOURS</p>
+                    </li>
+
+                    <li class="result__item result__item_mboth result__item_center2">
+                        <i class="result__icon fal fa-star"></i>
+                        <h3 class="results__title">548</h3>
+                        <p class="results__text">POSITIVE FEEDBACKS</p>
+                    </li>
+
+                    <li class="result__item result__item_mleft">
+                        <i class="result__icon fal fa-heart"></i>
+                        <h3 class="results__title">735</h3>
+                        <p class="results__text">HAPPY CLIENTS</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="work">
+            <div class="work__container d-flex flex-wrap">
+                <div class="col-3 work__col">
+                    <a href="project-info.html" class="work__card">
+                        <img src="img/work1.png" alt="">
+                        <i class="work__icon fal fa-eye"></i>
+                    </a>
+                </div>
+
+                <div class="col-3 work__col">
+                    <a href="project-info.html" class="work__card">
+                        <img src="img/work2.png" alt="">
+                        <i class="work__icon fal fa-eye"></i>
+                    </a>
+                </div>
+
+                <div class="col-3 work__col">
+                    <a href="project-info.html" class="work__card">
+                        <img src="img/work3.png" alt="">
+                        <i class="work__icon fal fa-eye"></i>
+                    </a>
+                </div>
+
+                <div class="col-3 work__col">
+                    <a href="project-info.html" class="work__card">
+                        <img src="img/work4.png" alt="">
+                        <i class="work__icon fal fa-eye"></i>
+                    </a>
+                </div>
+
+                <div class="col-3 work__col">
+                    <a href="project-info.html" class="work__card">
+                        <img src="img/work5.png" alt="">
+                        <i class="work__icon fal fa-eye"></i>
+                    </a>
+                </div>
+
+                <div class="col-3 work__col">
+                    <a href="project-info.html" class="work__card">
+                        <img src="img/work6.png" alt="">
+                        <i class="work__icon fal fa-eye"></i>
+                    </a>
+                </div>
+
+                <div class="col-3 work__col">
+                    <a href="project-info.html" class="work__card">
+                        <img src="img/work7.png" alt="">
+                        <i class="work__icon fal fa-eye"></i>
+                    </a>
+                </div>
+
+                <div class="col-3 work__col">
+                    <a href="project-info.html" class="work__card">
+                        <img src="img/work8.png" alt="">
+                        <i class="work__icon fal fa-eye"></i>
+                    </a>
+                </div>
+            </div>
+
+            <a href="#!" class="work__load">load more work</a>
+
+        </section>
+
+        <section id="process-section" class="process">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-sm-12 col-md-8">
+                        <h2 class="process__title">Our Work Process</h2>
+                        <p class="process__text">Was years it seasons was there form he in in them together over that,
+                            third sixth gathered female creeping bearing behold years.</p>
+                    </div>
+                </div>
+
+
+                <div class="video-container">
+                    <img class="video-thumb" src="img/video-thumbnail.png" alt="">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="modal-button btn" data-toggle="modal" data-target="#exampleModal">
+                        <i class="videoplay-icon fas fa-play"></i>
+                    </button>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-sm modal-lg modal-dialog-centered ">
+                        <div class="modal-content">
+                            <div class="modal-header justify-content-center">
+                                <h5 class="modal-title text-center" id="exampleModalLabel">How do we work</h5>
+                            </div>
+                            <div class="modal-body justify-content-center">
+                                <video class="modal-video" controls style="outline: none !important;" src="video/work-video.mp4"></video>
+                            </div>
+                            <div class="modal-footer justify-content-center">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="service-section" class="service">
+            <div class="container service__container">
+                <div class="row">
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="service__card">
+                            <i class="fal fa-gem"></i>
+                            <h3 class="service__title">ui / ux design</h3>
+                            <p class="service__text">Be set fourth land god darkness
+                                make it wherein own</p>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="service__card">
+                            <i class="fal fa-bow-arrow"></i>
+                            <h3 class="service__title">web development</h3>
+                            <p class="service__text">A she'd them bring void moving
+                                third she'd kind fill</p>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="service__card">
+                            <i class="fal fa-mobile-android"></i>
+                            <h3 class="service__title">app / mobile</h3>
+                            <p class="service__text">Dominion man second spirit he,
+                                earth they're creeping</p>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="service__card">
+                            <i class="fal fa-gamepad-alt"></i>
+                            <h3 class="service__title">game design</h3>
+                            <p class="service__text">Morning his saying moveth it
+                                multiply appear life be</p>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="service__card">
+                            <i class="fal fa-plane"></i>
+                            <h3 class="service__title">SEO / marketing</h3>
+                            <p class="service__text">Give won't after land fill creeping
+                                meat you, may</p>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="service__card">
+                            <i class="fal fa-star"></i>
+                            <h3 class="service__title">photography</h3>
+                            <p class="service__text">Creepeth one seas cattle grass
+                                give moving saw give</p>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="service__card">
+                            <i class="fal fa-wand-magic"></i>
+                            <h3 class="service__title">graphic design</h3>
+                            <p class="service__text">Open, great whales air rule for,
+                                fourth life whales</p>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="service__card">
+                            <i class="fal fa-fill"></i>
+                            <h3 class="service__title">illustrations</h3>
+                            <p class="service__text">Whales likeness hath, man kind
+                                for them air two won't</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="feed-section" class="feed">
+            <div class="container feed__container">
+                <div class="row justify-content-center">
+                    <div class="col-sm-11 col-lg-8">
+                        <div id="carouselExampleIndicators" class="carousel slide feed__carousel" data-ride="carousel">
+                            <!-- Контент Карусели -->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <p class="carousel-text">“Outstanding job and exceeded all expectations. It was a
+                                        pleasure
+                                        to work with them on a sizable first project and am looking
+                                        forward to start the next one asap.”</p>
+                                    <h5 class="carousel-title">Michael Hopkins</h5>
+                                </div>
+                                <div class="carousel-item">
+                                    <p class="carousel-text">“Outstanding job and exceeded all expectations. It was a
+                                        pleasure
+                                        to work with them on a sizable first project and am looking
+                                        forward to start the next one asap.”</p>
+                                    <h5 class="carousel-title">Trevor Phillips</h5>
+                                </div>
+                                <div class="carousel-item">
+                                    <p class="carousel-text">“Outstanding job and exceeded all expectations. It was a
+                                        pleasure
+                                        to work with them on a sizable first project and am looking
+                                        forward to start the next one asap.”</p>
+                                    <h5 class="carousel-title">Niko Bellic</h5>
+                                </div>
+                            </div>
+
+                            <!-- Индикаторы нижние -->
+                            <ol style="position: static !important;" class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0"
+                                    class="feed-indicator active"></li>
+                                <li class="feed-indicator" data-target="#carouselExampleIndicators" data-slide-to="1">
+                                </li>
+                                <li class="feed-indicator" data-target="#carouselExampleIndicators" data-slide-to="2">
+                                </li>
+                            </ol>
+
+                            <!-- Кнопки карусели -->
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                                data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                                data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="firms">
+            <div class="container firm__container">
+                <div class="row align-items-center">
+                    <div class="col-3 text-center">
+                        <img src="img/firm1.png" alt="">
+                    </div>
+
+                    <div class="col-3 text-center">
+                        <img src="img/firm2.png" alt="">
+                    </div>
+
+                    <div class="col-3 text-center">
+                        <img src="img/firm3.png" alt="">
+                    </div>
+
+                    <div class="col-3 text-center">
+                        <img src="img/firm4.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact-section" class="contact">
+            <div class="container">
+                <div class="row justify-content-center text-center">
+                    <div class="col-sm-12 col-lg-8">
+                        <h2 class="contact__title">Need a Project?</h2>
+                        <p class="contact__text contact__text_up">Let us know what you're looking for in an agency.
+                            We'll take a
+                            look and see
+                            if this could be the start of something beautiful.</p>
+                        <p class="contact__text contact__text_down">Let us know what you're looking for in an agency.
+                            We'll take
+                            a look and see
+                            if this could be the start of something beautiful.</p>
+
+                        <form class="form">
+                            <div class="form__line">
+                                <input class="form__input" id="name" type="text" placeholder="Your Name" required>
+                                <input class="form__input" id="email" type="email" placeholder="Your Email" required>
+                            </div>
+                            <p><input class="form__input" id="title" type="text" placeholder="Your Title" required></p>
+                            <textarea class="form__input form__textarea" id="comment" required
+                                placeholder="Your Comment"></textarea>
+                            <button class="form__button">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__left">
+                <a class="footer__logo" href="#home">Macintosh Design, Inc.</a>
+                <ul>
+                    <li>© 2017 Macintosh. All rights reserved.</li>
+                    <li>Designed by Jefry.</li>
+                </ul>
+            </div>
+
+            <div class="footer__center">
+                <a class="footer__mail" href="mailto:hello@pirolltheme.com">hello@pirolltheme.com</a>
+                <a class="footer__phone" href="tel:+44987065908">+44 987 065 908</a>
+            </div>
+
+            <div class="footer__right">
+                <ul class="footer__list footer__list_1">
+                    <li class="footer__item"><a class="footer__links" href="#!">Projects</a></li>
+                    <li class="footer__item"><a class="footer__links" href="#!">About</a></li>
+                    <li class="footer__item"><a class="footer__links" href="#!">Services</a></li>
+                    <li class="footer__item"><a class="footer__links" href="#!">Carreer</a></li>
+                </ul>
+
+                <ul class="footer__list footer__list_2">
+                    <li class="footer__item"><a class="footer__links" href="#!">News</a></li>
+                    <li class="footer__item"><a class="footer__links" href="#!">Events</a></li>
+                    <li class="footer__item"><a class="footer__links" href="#!">Contact</a></li>
+                    <li class="footer__item"><a class="footer__links" href="#!">Legals</a></li>
+                </ul>
+
+                <ul class="footer__list footer__list_3">
+                    <li class="footer__item"><a class="footer__links" href="#!">Facebook</a></li>
+                    <li class="footer__item"><a class="footer__links" href="#!">Twitter</a></li>
+                    <li class="footer__item"><a class="footer__links" href="#!">Instagram</a></li>
+                    <li class="footer__item"><a class="footer__links" href="#!">Dribbble</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="libs/jquery-3.5.1.slim.min.js"></script>
+    <script src="libs/popper.min.js"></script>
+    <script src="libs/bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
